@@ -1,0 +1,159 @@
+/* body.css
+ * This file contains all the styles for the main content of each page
+ * Dependencies: imports.css
+ */
+
+body {
+    width: 1024px;
+    margin: 5px auto 0;
+    background-color: #1C1C1C;
+    color: #888;
+    font-family: 'Telex', sans-serif;
+}
+
+.ad {
+    text-align:center;
+}
+
+.advert {
+
+}
+
+#content {
+    margin-top:15px;
+    overflow:hidden;
+}
+
+#maincontent {
+    float:left;
+    width:69%;
+    text-align:justify;
+}
+
+.innercontent {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background: #efefef;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+    box-shadow: 0px 0px 9px rgba(0,0,0,1);
+    color:#1C1C1C;
+    padding:10px;
+    overflow:hidden;
+    position:relative;
+}
+
+.innercontent h2 {
+    margin:0;
+    padding:0;
+    text-align:left;
+    display:inline-block;
+    font-size:25px;
+
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.innercontent h2 a {
+    text-decoration:none;
+}
+
+.innercontent h2 a:hover {
+    text-decoration:underline;
+}
+
+.innercontent a {
+    color:#003A61;
+}
+
+.innercontent ul li {
+    text-align:left;
+}
+
+.sidebar {
+    float: right;
+    clear:right;
+    width:30%;
+    text-align:center;
+    padding:5px 0 0;
+    border-radius:5px;
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+    color:#1C1C1C;
+    margin-left:8px;
+}
+
+.sidebar h2 {
+    margin:0;
+    padding:0;
+}
+
+.stats {
+    overflow:hidden;
+    padding:5px 15px 10px;
+}
+
+.sidebar p, .stats p {
+    font-size:75%;
+    display:inline;
+    margin:0;
+    padding:0;
+    float:left;
+    clear:left;
+    margin-top:13px;
+}
+
+.sidebar h3, .stats h3 {
+    display:inline;
+    color:#EFEFEF;
+    padding:0;
+    margin:0;
+    font-size:25px;
+    float:right;
+    clear:right;
+    font-family: 'Tulpen One', cursive;
+    letter-spacing:1px;
+}
+
+.sidebar ul {
+    list-style-type:none;
+    margin:0;
+    margin-top:8px;
+    padding:0;
+    border-top:1px solid #333;
+}
+
+.sidebar ul li {
+    margin:0;
+    border-bottom: 1px solid #333;
+    padding:5px 0;
+    border-top: 1px solid #777;
+}
+
+.sidebar ul li:last-of-type {
+    border:none;
+    border-top: 1px solid #777;
+}
+
+.datetext {
+    display:block;
+    font-size:12px;
+    margin:0;
+    padding:0;
+    margin-top:3px;
+}
+.sidebar ul li a {
+    color:#FFF;
+}
+
+.sidebar input {
+    float:none;
+}
+
+#sounddummy {
+    visibility:hidden;
+    height:0 !important;
+}

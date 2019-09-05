@@ -1,0 +1,235 @@
+@import "http://fonts.googleapis.com/css?family=Telex";
+
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family:'Telex', sans-serif;
+    background-color:#DCDDD8;
+}
+
+a {
+    text-decoration:none;
+    color:#0071B3;
+}
+
+.pagewidth {
+    width:75%;
+    min-width:1024px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#header {
+    width:100%;
+    background:#AAA;
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+
+#header h1 {
+    margin:0;
+    padding:0;
+}
+
+#nav {
+    background-color:#BBB;
+    width:100%;
+    position:fixed;
+    top:38px;
+    box-shadow:1px 0 7px 0 black;
+    z-index:998;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#nav ul li {
+    margin:0 0 0 -4px;
+    padding:0;
+    display:inline-block;
+    width:20%;
+}
+
+#nav ul li:first-of-type {
+    margin:0 !important;
+}
+
+#nav ul li a {
+    display:block;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+#content {
+    width:100%;
+    margin-top:68px;
+}
+
+.content-module {
+    padding:10px;
+    margin:10px;
+}
+
+.content-module h2 {
+    margin:0;
+    padding:0;
+}
+
+.content-module ul {
+
+}
+
+.content-module ul li {
+
+}
+
+.content-module ul li p {
+    margin:0;
+    padding:2px 0;
+}
+
+#skillselect {
+    text-align:center;
+    padding-top:4px;
+}
+
+#skillselect img {
+    height:25px;
+}
+
+#skillselect a {
+    display:inline-block;
+    margin:5px 0;
+}
+
+#skillselect a.selected {
+    outline: thin solid red;
+}
+
+table {
+    border-collapse: collapse;
+    width:80%;
+    margin:0 auto;
+}
+
+table tr {
+
+}
+
+table tr td, table tr th {
+    width:20%;
+}
+
+.updating {
+    color:#c77f02;
+}
+
+.updated {
+    margin:5px 0 0 0;
+    padding:0;
+    float:right;
+    clear:right;
+}
+
+.hstitle {
+    float:left;
+    clear:left;
+    padding:0 0 4px 0 !important;
+}
+
+.content-module hr {
+    clear:both;
+}
+
+.content-module form {
+    float:right;
+}
+
+#stats {
+    float:right;
+    width:75%;
+}
+
+#stats table {
+    width:95%;
+}
+
+#stats td, #stats th {
+    width:auto;
+}
+
+#stats td img {
+    height:15px;
+    margin-right:4px;
+}
+
+#stats-header {
+    float:right;
+    width:75%;
+}
+
+#alog {
+    float:left;
+    width:25%;
+    height:595px;
+    overflow-y:scroll;
+    margin-bottom:10px;
+}
+
+#alog-header {
+    float:left;
+    width:25%;
+}
+
+#alog ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.rssRow {
+    padding:10px;
+}
+
+.rssRow h4 {
+    padding:0;
+    margin:0;
+}
+
+.rssRow p {
+    margin:0;
+    padding:0;
+}
+
+.rssRow.odd {
+    background-color:#D0D1CD;
+}
+
+.content-module:last-of-type {
+    margin-bottom:10px;
+}
+
+.gains {
+    color:#727272;
+}
+
+#chart {
+    overflow:hidden;
+}
+
+#scrollMSG {
+    display:none;
+    text-align:center;
+}
+
+#scrollMSG p {
+    margin:0;
+    padding:0;
+    color:red;
+}

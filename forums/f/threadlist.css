@@ -1,0 +1,157 @@
+.createthread {
+    float:right;
+    padding:4px 10px;
+    margin-top:3px;
+    background-color:#CCCCCC;
+}
+
+.categoryheader {
+    width: 50%;
+    font-size:125%;
+    float: left;
+    padding:0;
+}
+
+.thread-icon {
+    float: left;
+    width: 50px;
+}
+
+.thread-icon i {
+    padding-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+}
+
+.threadtable {
+    clear:both;
+    border-collapse:collapse;
+    width:100%;
+}
+
+.threadtable thead th {
+    background-color:#475F77;
+    color:#d3d3d3;
+    height:38px;
+}
+
+.threadtable tbody tr {
+    height: 60px;
+    background-color: #CCC;
+    overflow: hidden;
+    border-bottom:1px solid #AAA;
+    border-top:1px solid #DDD;
+    box-sizing:border-box;
+}
+
+.threadtable tbody tr:hover:not(.nothreads) {
+    background-color:#BBB !important;
+}
+
+.nothreads {
+    text-align:center;
+}
+
+.nothreads td {
+    position:relative;
+}
+
+.threadtable-icon {
+    font-size:30px;
+    width:5%;
+    text-align:center;
+}
+
+.threadtable-title {
+    text-align:left;
+    width:60%;
+    padding-left:1%;
+    position:relative;
+}
+
+.threadtable-title a {
+    display:block;
+}
+
+.threadtable-title a h3, .threadtable-title a p {
+    margin:0;
+    padding:0;
+}
+
+.threadtable-title a h3 {
+
+    display:inline-block;
+}
+
+.threadtable-title a h3 i {
+    color:#354B5E;
+    font-size:90%;
+}
+
+.threadtable-topicauthor {
+    text-align:center;
+    width:10%;
+}
+
+.threadtable-topiccount {
+    text-align:center;
+    width:5%;
+}
+
+.threadtable-postcount {
+    text-align:center;
+    width:5%;
+}
+
+.threadtable-lastpost {
+    text-align:center;
+    width:15%;
+}
+
+.threadtable-lastpost span {
+    display:block;
+}
+
+.read, .nothread {
+    background-color:#AAA;
+}
+
+.unread {
+    background-color:#D74E5E;
+}
+
+.read, .unread, .nothread {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width:5px;
+    z-index:998;
+}
+
+.hasunread {
+   background-color:#DDD !important;
+}
+
+.pin {
+    position:absolute;
+    left:-11px;
+    top:17px;
+    font-size:20px;
+    z-index:997;
+}
+
+.nonstickyposts {
+    margin-top:15px;
+}
+
+.nonstickyposts tr:first-child {
+    border-top:thin solid #AAA !important;
+}
+
+.locked:before {
+    font-family:FontAwesome;
+    content:"\f023";
+    display:inline;
+}

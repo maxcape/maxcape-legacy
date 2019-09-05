@@ -1,0 +1,102 @@
+#milestone-header {
+    overflow:hidden;
+    width:100%;
+}
+
+#players {
+    overflow:hidden;
+}
+
+#milestone-header h2 {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#players h3 {
+    text-align:center;
+    margin:7px 0 0 0;
+}
+
+select {
+    float:left;
+    box-sizing:border-box;
+    margin:6px 0 0 12px;
+}
+
+#players ul {
+    padding:0;
+    margin:0 0 0 -6px;
+    overflow:hidden;
+}
+
+#players ul li {
+    display:inline;
+    float:left;
+    width:120px;
+    margin:7px 0 0 7px;
+    border-radius:5px;
+    text-align:center;
+}
+
+#players ul li a {
+    display:block;
+    width:100%;
+    height:100%;
+    padding:5px 0;
+}
+
+.m1 li {
+    border:thin solid #3E8653;
+    background-color:#57BD5A;
+}
+
+.m2 li {
+    border:thin solid #22743A;
+    background-color:#8AC739;
+}
+
+.m3 li {
+    border:thin solid #BAAA17;
+    background-color:#ECE628;
+}
+
+.m4 li {
+    border:thin solid #FBC628;
+    background-color:#FEE335;
+}
+
+.m5 li {
+    border:thin solid #9B5029;
+    background-color:#EA7338;
+}
+
+.m6 li {
+    border:thin solid #A00A0A;
+    background-color:#EA6865;
+}
+
+.m7 li {
+    border:thin solid #F8BCF4;
+    background-color:#FED9F9;
+}
+
+.m8 li {
+    border:thin solid #7F34B2;
+    background-color:#D565CF;
+}
+
+.m9 li {
+    border:thin solid #116090;
+    background-color:#028CDE;
+}
+
+.m10 li {
+    border:thin solid #7E2C2C;
+    background-color:#D87A7A;
+}
+
+.m11 li {
+    border:thin solid #B4B537;
+    background-color:#E5DD0E;
+}

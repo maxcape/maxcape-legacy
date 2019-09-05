@@ -1,0 +1,168 @@
+#leave-comment {
+    overflow:hidden;
+    padding-top:3px;
+}
+
+.user-portrait-large {
+    width:9%;
+    float:left;
+}
+
+#leave-comment textarea {
+    width:90%;
+    resize:none;
+    height:58px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    box-shadow:0 0 3px 1px #999;
+    transition:height 1s;
+    -webkit-transition:height 250ms;
+}
+
+#leave-comment textarea:focus {
+    box-shadow:0 0 3px 1px #69B1FF;
+    height:100px;
+}
+
+#leave-comment a {
+    display:inline-block;
+    text-decoration: none;
+    font-size:90%;
+}
+
+#reply-to {
+    clear:left;
+    float:left;
+    margin:3px 0 0 9%;
+    padding:0;
+    visibility:hidden;
+}
+
+#comments button {
+    clear:right;
+    background-color:#5f6975;
+    color:#AAA;
+    border:1px solid #333;
+    float:right;
+    border-radius:5px;
+    position:relative;
+    width:130px;
+    height:30px;
+}
+
+#comments button:before {
+    border:1px solid #777;
+    position:absolute;
+    content:'';
+    border-radius:5px;
+    width: 126px;
+    height: 26px;
+    top: 0;
+    left: 0;
+}
+
+#comments button:active {
+    background-color:#4b545f;
+}
+
+#comments button img {
+    height:20px;
+}
+
+.comment {
+    display:block;
+    overflow:hidden;
+    padding:5px;
+    border-radius:5px;
+}
+
+.comment * {
+    margin:0;
+    padding:0;
+}
+
+.comment a {
+    text-decoration: none;
+}
+
+.comment a:hover {
+    text-decoration:underline;
+}
+
+.comment-header {
+    overflow:hidden;
+}
+
+.user-portrait {
+    height:50px;
+    float:left;
+}
+
+.arrow-left {
+    float:left;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid #9A4D4D;
+    margin-top:10px;
+}
+
+.comment-details {
+    width:90%;
+    float:left;
+    background-color:#EDEDED;
+    min-height:40px;
+    border-radius:5px;
+}
+
+.user-details {
+    background-color: #9A4D4D;
+    overflow:hidden;
+    border-radius:5px 5px 0 0;
+    padding:10px 5px;
+    color:#AAA;
+}
+
+
+
+.username {
+    float:left;
+}
+
+.post-date {
+    display:inline;
+    float:right;
+}
+
+.rsn {
+    display:block;
+    font-size:75%;
+    margin-top:3px;
+    float:left;
+    margin-left:4px;
+    padding-left:4px;
+    border-left:1px solid black;
+}
+
+.user-comment-count {
+    float:right;
+    display:none;
+    clear:right;
+}
+
+.comment-content {
+    border-top:1px solid black;
+    padding:5px;
+    float:left;
+    clear:both;
+}
+
+.comment-content p {
+    margin-bottom:10px;
+}
+
+.comment p:last-of-type {
+    margin-bottom:0;
+}

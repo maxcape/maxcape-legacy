@@ -1,0 +1,18 @@
+/* imports.css
+ * This file contains all the imported fonts used in maxcape.com
+ * External dependencies: Google Webfonts, weloveiconfonts
+ * Internal dependencies: None
+ */
+
+@import "http://fonts.googleapis.com/css?family=Tulpen+One";
+@import "http://fonts.googleapis.com/css?family=Englebert";
+@import "http://fonts.googleapis.com/css?family=Telex";
+@import "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600";
+@import "http://fonts.googleapis.com/css?family=Patrick+Hand+SC";
+@import "http://fonts.googleapis.com/css?family=Glegoo";
+@import "http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Carrois+Gothic";
+@import "http://fonts.googleapis.com/css?family=Iceland";
+@import "http://fonts.googleapis.com/css?family=Wallpoet";
+@import "http://fonts.googleapis.com/css?family=Crushed";
+@import "http://fonts.googleapis.com/css?family=Electrolize";

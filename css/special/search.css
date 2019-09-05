@@ -1,0 +1,224 @@
+.standalone {
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.nofloat {
+    float: none;
+    margin-left: -4px;
+}
+
+label.nofloat {
+	padding: 5px;
+}
+#usersearch {
+	text-align:center;
+	margin-top:287px;
+	position:relative;
+	z-index:22;
+	width: 450px;
+}
+
+#searchresults {
+	margin:20px auto;
+	height: 544px;
+	width: 622px;
+	top: 65px;
+	left: 20px;
+	position: absolute;
+	z-index:0;
+	overflow:auto;
+}
+
+#searchresults table {
+	margin:0 auto;
+}
+
+#searchresults th, #searchresults td {
+	width:180px;
+}
+
+.searchbox {
+    height:630px;
+    position:relative;
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+.form-wrapper {
+    width: 450px;
+    padding: 8px;
+    margin: 0 auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+/* Form text input */
+ 
+.form-wrapper input {
+    width: 330px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrapper button:hover{     
+    background: #e54040;
+}   
+   
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+.form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+ 
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}
+
+.loader {
+    padding:0;
+    margin:9px auto 5px;
+    border:none;
+}
+
+table {
+    margin:0 auto;
+    border-collapse:collapse;
+}
+
+td, th {
+    padding:3px 0px;
+}
+
+td:first-child, th:first-child {
+    padding-left:3px;
+}
+
+tr:first-of-type {
+    background:transparent !important;
+    cursor:default !important;
+    margin: 15px;
+}
+
+tr:hover {
+    background-color:#69B1FF;
+    cursor:pointer;
+}
+
+.latestNews {
+    overflow:hidden;
+    margin: 0px auto 15px auto;
+    padding: 3px 0px 0px 0px;
+    width: 98%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+}
+
+.latestNews h3 {
+    margin: 0;
+    padding: 5px 5px 5px 14px;
+    color: #1C1C1C;
+    float:left;
+}
+
+.latestNews a {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color:#AAA;
+}
+
+#user-options {
+    float:right;
+}
+
+#user-options p {
+    color:#1C1C1C;
+    margin:0;
+    padding: 7px 15px 0px 0px;
+}

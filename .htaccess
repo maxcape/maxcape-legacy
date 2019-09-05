@@ -1,0 +1,93 @@
+Order Deny,Allow
+
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	#MAINTENANCE RULES
+	#Only active if under maintenance.
+	#RewriteCond %{REMOTE_HOST} !71.231.165.101
+	#RewriteCond %{REQUEST_URI} !/construction.php
+	#RewriteRule ^(.*)$ /construction.php [R=301]
+
+	#Add www. to url
+	RewriteCond %{HTTP_HOST} ^maxcape\.com$ [NC]
+	RewriteRule ^(.*)$ http://www.maxcape.com/$1 [R=301]
+
+	#Noredirect
+	#/nr
+	RewriteRule ^(nr)$ /?noredirect [QSA,L]
+
+	#Failed Search
+	#/badrsn/<rsn>
+	RewriteRule ^badrsn\/([^/\.]+)/?$ /nr?failedname=$1 [QSA,L]
+	
+	#Redirect /badrsn/ with no name
+	RewriteRule ^badrsn\/?$ / [R=301,L]
+	
+	#Front Page posts
+	#/post/<number>
+	RewriteRule ^post\/([\d]+)/?$ /?action=viewpost&postid=$1 [QSA,L]
+
+	#Recover
+	#/user/recover
+	RewriteRule ^user\/recover /unavailable.php [QSA,L] #/login/recover.php [QSA,L]
+	RewriteRule ^user\/login.php /login/login.php [QSA,L]
+	RewriteRule ^user\/register.php /login/register.php [QSA,L]
+
+	#Reset
+	#/user/reset?token=<token>
+	RewriteRule ^user\/reset /unavailable.php [QSA,L] # /login/password_reset.php [QSA,L]
+	
+	#Login
+	#/user/[login|register]
+	RewriteRule ^user\/([^/\.]+)/?$ /login/?action=$1 [QSA,L]
+	
+	#Profile
+	#/profile/<username>
+	RewriteRule ^profile\/(.+)/?$ /profiles/?user=$1 [QSA,L]
+
+	#Calc Compare
+	#/calc/compare/<rsn1>/<rsn2>
+	RewriteRule ^calc\/compare\/([\w\-\+\ ]{1,12})\/([\w\-\+\ ]{1,12})/?$ /calc/compare/?user1=$1&user2=$2 [QSA,L]
+
+	#Calc
+	#/calc/<rsn>
+	RewriteCond %{REQUEST_URI} !^calc/createTable.php$ [NC]
+	RewriteCond %{REQUEST_URI} !^calc/compare/.+$ [NC]
+	RewriteRule ^calc/([\w\-\+\ ]{1,12})$ /calc/?name=$1 [QSA,L]
+	#RewriteRule ^calc/([\w\-\+\ ]{1,12})$ /post/55 [QSA,L]
+	RewriteRule ^new/calc/([\w\-\+\ ]{1,12})$ /new/calc/index.php?name=$1 [QSA,L]
+
+	#UCP
+	#/ucp/tab/<number>
+	RewriteRule ^ucp\/tab\/([\d]+)/?$ /ucp/?tab=$1 [QSA,L]
+
+	#Designer
+	#/designer/<number>
+	RewriteRule ^designer\/([\d]+)/?$ /designer/?id=$1 [QSA,L]
+
+	#Sigs
+	#/sig/<rsn>/<milestone>.png
+	RewriteCond %{REQUEST_URI} !/sig/sigs/(.*)
+	RewriteRule ^sig\/([\w\s_-]+)\/([\w\s-]+)\.png$ /sig/CreateSig.php?rsn=$1&goal=$2 [QSA,L]
+
+	#Pagination
+	#/page/<number>
+	RewriteRule ^page\/([\d]+)/?$ /?page=$1 [QSA,L]
+
+	#Logs
+	#/logs/<number>
+	RewriteRule ^logs\/view\/([\d]+)/?$ /logs/view/?logid=$1 [QSA,L]
+
+	#FORUMS
+	#____________________________________________________________________________________________
+	#Thread View
+	#/forums/t/<threadid>(/title)
+	RewriteRule ^forums\/t\/([\d]+)(\/.+)?$ /forums/viewthread/?threadid=$1 [QSA,L]
+
+	#Forum View
+	#/forums/f/<forumid>(/title)
+	RewriteRule ^forums\/f\/([\d]+)(\/.+)?$ /forums/f/?id=$1 [QSA,L]
+</IfModule>

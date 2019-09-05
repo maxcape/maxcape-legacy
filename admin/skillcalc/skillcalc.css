@@ -1,0 +1,129 @@
+.innercontent form {
+    width:70%;
+    margin:5px auto;
+}
+
+.innercontent label, .innercontent input, .innercontent select {
+    float:left;
+    box-sizing:border-box;
+}
+
+.innercontent label {
+    clear:left;
+    width:30%;
+    margin-left:10%;
+}
+
+.innercontent input {
+    width:50%;
+    clear:right;
+    margin-right:10%;
+}
+
+.innercontent select {
+    width:50%;
+}
+
+.innercontent form a {
+    float:right;
+    margin-right:2%;
+    margin-top:2px;
+    clear:right;
+}
+
+.innercontent button {
+    width:100px;
+    height:30px;
+    clear:both;
+    float:right;
+    margin-right:10%;
+}
+
+button img {
+    height:25px;
+    width:auto;
+}
+
+.sidebar ul li {
+    cursor:pointer;
+}
+
+.blinder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+}
+
+.centered {
+    position: absolute;
+    z-index: 9999;
+    box-shadow: 0 0 12px 5px #000;
+    overflow-y:scroll;
+    max-height:85%;
+    padding:10px;
+}
+
+.delete {
+    width:100% !important;
+    float:left !important;
+}
+
+
+.delete input {
+    width:auto !important;
+    margin:2px 3px 0 0 !important;
+}
+
+.centered form {
+    width:100%;
+    margin:5px auto;
+}
+
+.centered fieldset {
+    width:500px;
+}
+
+.centered label, .centered input, .centered select {
+    float:left;
+    box-sizing:border-box;
+}
+
+.centered label {
+    clear:left;
+    width:50%;
+    margin:5px 0;
+}
+
+.centered input {
+    width:50%;
+    clear:right;
+    margin:5px 0;
+}
+
+.centered select {
+    width:50%;
+    clear:right;
+    margin:5px 0;
+}
+
+.centered a {
+    float:right;
+    margin-right:2%;
+    margin-top:2px;
+    clear:right;
+}
+
+.centered button {
+    clear:none !important;
+    margin-right:3px !important;
+}
+
+.buttoncontainer {
+    overflow:hidden;
+    margin:10px auto 0;
+}

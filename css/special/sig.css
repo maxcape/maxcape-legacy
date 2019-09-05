@@ -1,0 +1,137 @@
+#blah {
+    margin:0 auto;
+    width:30%;
+    text-align:center;
+    overflow:hidden;
+}
+
+#blah input[type="text"] {
+    background: #444;
+    border: 1px solid;
+    border-color: #111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    padding: 6px 8px 6px 15px;
+    color: #AAA;
+    margin-left:22px;
+    box-sizing:border-box;
+    width:152px;
+    border-radius:3px;
+}
+
+#blah input[type="text"]:before {
+    border-bottom-color: #aaa;
+}
+#blah input[type="text"]:after {
+    border-top-color: #aaa;
+}
+
+#blah input[type="text"]:focus {
+    outline:none;
+}
+
+#blah button {
+    clear:both;
+    float:right;
+    margin-right: 38px;
+    margin-top:8px;
+    background-color:#5f6975;
+    color:#AAA;
+    border:1px solid #333;
+
+    border-radius:5px;
+    position:relative;
+    width:80px;
+    height:30px;
+}
+
+#blah button:before {
+    border:1px solid #777;
+    position:absolute;
+    content:'';
+    border-radius:5px;
+    width: 76px;
+    height: 26px;
+    top: 0;
+    left: 0;
+}
+
+#blah button:active {
+    background-color:#4b545f;
+}
+
+.dropdown-select {
+    box-sizing: border-box;
+}
+
+#output {
+    clear:both;
+    width:40%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#imagecontainer {
+    width: 300px;
+    height: 58px;
+    padding:15px;
+    border-radius:3px;
+    margin:10px auto;
+    background: #444;
+    border: 1px solid;
+    border-color: #111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    box-shadow:0 0 10px 1px black;
+}
+
+textarea {
+    float:left;
+    width:49%;
+    height:100px;
+    box-sizing:border-box;
+    resize:none;
+}
+
+textarea:first-of-type {
+    margin-right:2%;
+}
+
+#output label {
+    float:none;
+    clear:both;
+    margin-left:70px;
+}
+
+#output label:first-of-type {
+    margin-right:65px;
+}
+
+#compoptions {
+    display:none;
+    margin-top:10px;
+    clear:both;
+}
+
+#compoptions h4 {
+    margin:0;
+    padding:0;
+}
+#directcontainer {
+    text-align:center;
+}
+
+#directcontainer label {
+    float:none;
+    margin:0 !important;
+}
+
+#directcontainer input {
+    float:none;
+    margin:0;
+    width:275px;
+}

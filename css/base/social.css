@@ -1,0 +1,149 @@
+/**
+ * Remake of "HTML + CSS3 Icons" by Clay Cauley
+ *
+ * Inspiration was taken from:
+ * - http://designmoo.com/5368/html-css3-icons/
+ */
+
+/**
+ * Demo styles
+ */
+
+/**
+ * Base style
+ */
+
+.header a {
+    float:right;
+    margin:0 5px;
+}
+
+a.s3d {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+
+    display: inline-block !important;
+    font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif;
+    height: 18px;
+    padding: 0 10px 11px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+    width: 25px;
+}
+
+/**
+ * Twitter
+ */
+a.twitter {
+    background: #65acc8;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#65acc8), to(#4586ae));
+    background: -moz-linear-gradient(#65acc8, #4586ae);
+    background: linear-gradient(#65acc8, #4586ae);
+    border-top: 1px solid #a1cdde;
+    color: rgba(25, 45, 55, .9);
+    margin-right:45px !important;
+}
+
+a.twitter:active {
+    background: #4586ae;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#4586ae), to(#65acc8));
+    background: -moz-linear-gradient(#4586ae, #65acc8);
+    background: linear-gradient(#4586ae, #65acc8);
+}
+
+/**
+ * Facebook
+ */
+a.facebook {
+    background: #4669ab;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#4669ab), to(#304886));
+    background: -moz-linear-gradient(#4669ab, #304886);
+    background: linear-gradient(#4669ab, #304886);
+    border-top: 1px solid #8ea4cd;
+    color: rgba(21, 31, 53, 1);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+}
+
+a.facebook:active {
+    background: #304886;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#304886), to(#4669ab));
+    background: -moz-linear-gradient(#304886, #4669ab);
+    background: linear-gradient(#304886, #4669ab);
+}
+
+/**
+ * Google Plus
+ */
+a.googleplus {
+    background: #DB4A38;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#DB4A38), to(#B13E31));
+    background: -moz-linear-gradient(#DB4A38, #B13E31);
+    background: linear-gradient(#DB4A38, #B13E31);
+    border-top: 1px solid #E2A671;
+    color: rgba(21, 31, 53, 1);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+}
+
+a.googleplus:active {
+    background: #B13E31;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#B13E31), to(#DB4A38));
+    background: -moz-linear-gradient(#B13E31, #DB4A38);
+    background: linear-gradient(#B13E31, #DB4A38);
+}
+
+/**
+ * Tumblr
+ */
+a.tumblr {
+    background: #477392;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#477392), to(#335670));
+    background: -moz-linear-gradient(#477392, #335670);
+    background: linear-gradient(#477392, #335670);
+    border-top: 1px solid #87AAC4;
+    color: rgba(21, 31, 53, 1);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+}
+
+a.tumblr:active {
+    background: #335670;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#335670), to(#477392));
+    background: -moz-linear-gradient(#335670, #477392);
+    background: linear-gradient(#335670, #477392);
+}
+
+a.s3d span {
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
+    text-shadow:0 0 2px rgba(200,200,200,0.8);
+}
+
+a.addlog {
+    background: #00BC00;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#00BC00), to(#008200));
+    background: -moz-linear-gradient(#00BC00, #008200);
+    background: linear-gradient(#00BC00, #008200);
+    border-top: 1px solid #00DC00;
+    color: rgba(25, 45, 55, .9);
+    margin-right:15px;
+}
+
+
+a.s3d:hover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .25))), -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(255, 255, 255, .1)), color-stop(0.501, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0)));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), -moz-linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+    background: linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+}

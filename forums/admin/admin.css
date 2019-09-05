@@ -1,0 +1,72 @@
+.admincontrolcontainer {
+    background-color:#CCC;
+    padding:10px;
+    overflow:hidden;
+}
+
+#forumtree {
+    border-collapse:collapse;
+    width:60%;
+    margin:0 auto;
+}
+
+#forumtree th, #forumtree td {
+    text-align:center;
+}
+
+#forumtree th:hover, #forumtree td:hover {
+    background-color:#BBB;
+    cursor:pointer;
+}
+
+.selectedinfo {
+    float:left;
+    width:45%;
+    margin-left:5%;
+    background-color:#BBB;
+}
+
+#blinder {
+    background-color:rgba(0,0,0,0.4);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:none;
+}
+
+#addsubforumcontainer, #addcategorycontainer, #editcategorycontainer, #editsubforumcontainer {
+    width:500px;
+    padding:10px;
+    height:auto;
+    display:none;
+    background-color:#DDD;
+    position:absolute;
+    overflow:hidden;
+}
+
+#addsubforumcontainer *, #addcategorycontainer *, #editcategorycontainer *, #editsubforumcontainer * {
+    box-sizing:border-box;
+}
+
+label {
+    width:20%;
+    float:left;
+}
+
+input, select, textarea {
+    width:80%;
+    float:left;
+}
+
+textarea {
+    height:100px;
+    resize:vertical;
+}
+
+button {
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}

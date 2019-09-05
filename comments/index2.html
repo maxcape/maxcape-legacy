@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comment Styles</title>
+
+        <link rel="stylesheet" href="../css/base/masthead.css">
+        <link rel="stylesheet" href="../css/base/body.css">
+        <link rel="stylesheet" href="../css/base/footer.css">
+        <link rel="stylesheet" href="../css/base/social.css">
+        <link rel="stylesheet" href="../css/special/news.css">
+
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+
+        <link rel="stylesheet" href="comments2.css">
+
+        <script src="../js/jquery.js"></script>
+    </head>
+
+    <body>
+        <div id="masthead">
+            <div class="header">
+
+                <img src="../images/TL_icon.png" class="icon">
+                <a style="float:left;" href="/nr"><h1>MAX/COMP CAPE CALCULATOR</h1></a>
+
+
+                <form style="float:right;" action="/calc/" method="get">
+                    <input type="submit" value="Search" onclick="(function(e) { e.preventDefault(); document.location = '/calc/' + $('#name').val().replace(' ', '+'); })(event)">
+                    <input type="text" name="name" id="name" placeholder="Search..." required="required">
+                    <label for="name">RSN</label>
+                </form>
+
+                <a href="#"
+                   class="s3d twitter"> <span class="fontawesome-twitter"></span> </a>
+
+                <a href="#"
+                   class="s3d tumblr"> <span class="zocial-tumblr"></span> </a>
+
+                <a href="#"
+                   class="s3d facebook"> <span class="fontawesome-facebook"></span> </a>
+
+                <a href="#" class="s3d googleplus"> <span class="fontawesome-google-plus"></span> </a>
+
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class='active'><a style="padding:5px 15px;" href="#"><span class="fontawesome-home"></span></a></li>
+                    <li><a href="#">Designer</a></li>
+                    <li><a href="#">Signatures</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Search Profiles</a></li>
+                    <li><a href="#">User Control Panel</a></li>
+                    <li><a href="#">Admin</a></li>
+                </ul>
+            </div>
+            <div class="latestNews">
+                <h3>Latest News: <a href="#">Tweaks & Updates (ongoing newspost)</a></h3>
+
+                <div id="user-options">
+                    <p>Welcome, Evan | <a href="#">Logout</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="maincontent">
+                <div class="innercontent">
+                    <h2>
+                        <a href="#">Post Header</a>
+                    </h2>
+                    <span class="date">Jul 14, 2013</span>
+
+                    <p>Post Content</p>
+
+                    <hr>
+
+                    <div id="comments">
+                        <div id="leave-comment">
+                            <img class="user-portrait-large" src="http://services.runescape.com/m=avatar-rs/The%20Orange/chat.png">
+                            <textarea placeholder="Leave a comment..."></textarea>
+
+                            <p id="reply-to">In Reply To: <span id="reply-to-name"></span> <a class="fontawesome-remove-sign" title="Remove Reply" href="javascript:removeReply();"></a></p>
+                            <input type="hidden" id="reply-to-id">
+                            <button type="button">Post Comment</button>
+                        </div>
+
+                        <hr>
+
+                        <div class="comment">
+                            <div class="comment-header">
+                                <img class="user-portrait" src="http://services.runescape.com/m=avatar-rs/The%20Orange/chat.png">
+
+                                <div class="arrow-left"></div>
+
+                                <div class="comment-details">
+                                    <div class="user-details">
+                                        <a class="username" href="#">Evan</a>
+
+                                        <p class="post-date">July 14, 2013</p>
+                                        <a class="rsn" href="#">The Orange</a>
+                                    </div>
+
+                                    <div class="comment-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, mauris eu elementum vestibulum, dui est placerat sapien, at tempus massa diam a magna. Etiam ligula nibh, tincidunt eget cursus ut, venenatis id turpis. Nam mollis nulla non arcu volutpat aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nunc tellus, egestas a porttitor eget, rhoncus ac augue. Integer lobortis consectetur nisi vitae gravida. Nullam venenatis sodales iaculis. Integer at justo eget mi rutrum pharetra ultrices eget orci. Pellentesque magna erat, porttitor eu lectus non, aliquet rutrum felis. In consectetur lectus sit amet dolor dapibus, id hendrerit mi pretium. Fusce eget tellus quis dui rhoncus pellentesque. Donec ullamcorper suscipit arcu vel condimentum. Maecenas consequat lacus eu tortor tempor porta. Integer dictum magna ut lorem interdum, placerat sagittis ligula convallis. Sed euismod purus lacus, ac venenatis augue sodales nec.
+                                        </p>
+
+                                        <p>
+                                            Ut scelerisque eget lorem ac aliquet. Nulla laoreet elementum nulla in sollicitudin. Vestibulum sollicitudin erat nec tincidunt gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ut risus eget metus congue malesuada. Morbi vehicula ipsum ante, a ultrices turpis elementum dignissim. Nulla facilisis ante eu risus convallis sollicitudin. Phasellus commodo eleifend diam, id dapibus nunc ultrices mattis. Ut varius consectetur augue ut lacinia.
+                                        </p>
+
+                                        <p>
+                                            Donec a dui et erat consequat molestie. Mauris in arcu ut augue convallis molestie. Mauris vitae ligula porttitor, tempus neque sit amet, pulvinar metus. Morbi ac rhoncus est. Aenean vel quam congue, suscipit arcu quis, pulvinar mi. Maecenas vel urna placerat tellus pretium convallis. Etiam in gravida mi, eu pulvinar magna. Nunc lacinia vitae nisi at imperdiet. Suspendisse urna nunc, cursus quis nibh ac, volutpat porta nisi.
+                                        </p>
+
+                                        <p>
+                                            Cras tincidunt dolor neque, at accumsan erat consectetur et. Nullam rutrum justo ac ullamcorper vulputate. Fusce at nisl erat. Quisque laoreet sapien eu lorem varius fringilla. Vivamus non diam et lorem fringilla faucibus. Quisque ante turpis, luctus quis ultricies non, vulputate nec eros. Cras porttitor rhoncus ante, quis consequat massa bibendum ac. Donec in sem dui. Duis et lacus ac magna tempus aliquam sit amet eget mi. Aenean fringilla varius elementum. Praesent tincidunt lorem eget dolor tincidunt, quis interdum nulla condimentum. Quisque interdum risus sit amet libero commodo, ac imperdiet libero luctus. Donec fermentum fermentum metus, blandit iaculis ipsum rhoncus at.
+                                        </p>
+
+                                        <p>
+                                            Vivamus odio odio, consectetur id accumsan non, pretium iaculis orci. Donec luctus hendrerit placerat. Phasellus tincidunt erat sit amet mattis tempus. Nunc sit amet arcu varius, bibendum dolor at, ornare justo. Sed vitae sapien nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec accumsan metus eget tristique mattis. Aliquam lacinia, lorem eu vehicula imperdiet, nunc ipsum placerat metus, nec sodales turpis orci non magna. Aliquam consectetur accumsan bibendum. Donec molestie erat velit, eu iaculis nisi tempus ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                Hi
+            </div>
+        </div>
+
+        <script>
+            function removeReply() {
+                $("#reply-to").css("visibility", "hidden");
+            }
+
+            function replyTo(username) {
+                $("#reply-to").css("visibility", "visible");
+                $("#reply-to-name").empty().text(username);
+
+                location.href = "#leave-comment"
+            }
+
+            $(".reply-link").click(function () {
+                var poster = $(this).parents(".comment").attr("data-poster");
+                var posterid = $(this).parents(".comment").attr("data-poster-id");
+
+                replyTo(poster);
+                $("#reply-to-id").val(posterid);
+            });
+        </script>
+
+    </body>
+</html>

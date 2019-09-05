@@ -1,0 +1,130 @@
+body {
+    width: 960px;
+    margin: 20px auto 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    font-family: 'Telex', sans-serif;
+}
+
+form {
+    overflow:hidden;
+}
+
+#sidebar {
+    width: 22%;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #777;
+}
+
+#sidebar ul li:first-of-type {
+    border-top:none;
+    border-top-left-radius: 5px;
+}
+
+#sidebar ul li:last-of-type {
+    border:none;
+    border-top: 1px solid #777;
+    border-bottom-left-radius: 5px;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 15px;
+    color: #AAAAAA;
+}
+
+#content {
+    width: 78%;
+    float: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-height: 500px;
+}
+
+.innercontent {
+    padding: 10px;
+    overflow: hidden;
+}
+
+#checkpointselect {
+    width:175px;
+    margin: 10px 0 0 0;
+    padding:0;
+    clear:both;
+}
+
+.selectcontainer {
+    float:left;
+    height:100%;
+    width: 175px;
+    overflow: hidden;
+}
+
+.selectcontainer label {
+    float:none;
+    display:block;
+    margin:0;
+}
+
+.selectcontainer button {
+    float:none;
+}
+
+.tablecontainer {
+    float:left;
+    height:100%;
+    min-height:480px;
+    width:526px;
+    margin-left:27px;
+}
+
+.tablecontainer img {
+    display: block;
+    margin:229px auto 0 auto;
+}
+
+.tablecontainer h4 {
+    margin:0;
+    padding:0;
+    display:inline;
+    line-height:30px;
+}
+
+.tablecontainer button {
+    float:right;
+    margin:0;
+}
+
+.tablecontainer table {
+    border-collapse:collapse;
+    clear:both;
+    margin-top: 10px;
+}
+
+.tablecontainer th, .tablecontainer td {
+    width: 146px;
+}
+
+.tablecontainer th:nth-of-type(2), .tablecontainer td:nth-of-type(2) {
+    width: 75px;
+}
+
+#main {
+    overflow:hidden;
+    position:relative;
+}
+

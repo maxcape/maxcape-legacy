@@ -1,0 +1,169 @@
+#masthead {
+    width:100%;
+    position:relative;
+}
+
+.header, .nav, #masthead form {
+    margin:0;
+    padding:0;
+    float:left;
+    height:52px;
+
+}
+
+#masthead form {
+    width:20%;
+}
+
+.header {
+    width:20%;
+    position:relative;
+}
+
+.header img {
+    float:left;
+    margin-top:14px;
+}
+
+.header h1 {
+    float:left;
+    margin:0 0 0 4px;
+    padding:0;
+    font-size:40px;
+    font-family: 'Electrolize', sans-serif;
+    line-height:50px;
+    color:#333;
+}
+
+.social {
+    float:right;
+    padding: 0 5px 0 0;
+    width: 35%;
+}
+
+[class*='logo-'] {
+    height:100%;
+    width:10px;
+    position:relative;
+    float:left;
+}
+
+[class*='logo-'] .bar {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.logo-1 .bar {
+    height:66%;
+    background-color:#BD4142;
+}
+
+.logo-2 .bar {
+    height:100%;
+    background-color:#52925A;
+}
+
+.logo-3 .bar {
+    height:33%;
+    background-color:#314DA5;
+}
+
+#masthead form {
+    width:20%;
+}
+
+#masthead form input, #masthead form button {
+
+}
+
+#masthead form input[type='text'] {
+    outline:none;
+    border:none;
+    border-left:1px solid #AAA;
+    border-right:1px solid #AAA;
+    float:right;
+    height:52px;
+    width:85%;
+    font-size:25px;
+    font-family:'Telex', sans-serif;
+    padding-left:5px;
+    border-radius:0;
+    background-color:#EEE;
+}
+
+#masthead form input[type='text']:focus {
+    background-color:#fFF;
+}
+
+#masthead form input::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#masthead form input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#masthead form input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#masthead form button {
+    background:none;
+    outline:none;
+    border:none;
+    float:right;
+    height:52px;
+    width:15%;
+    cursor:pointer;
+    background:#d83c3c;
+    color:white;
+}
+
+#masthead form button:hover {
+    background:#e54040;
+}
+
+#masthead label {
+    display:none;
+}
+
+.latestNews {
+    width:100%;
+    float:right;
+    overflow:hidden;
+    border-bottom:thin solid #AAA;
+    border-top:1px solid #AAA;
+    box-shadow:1px 4px 5px -3px #AAA;
+    padding:8px 0;
+}
+
+.latestNews h3 {
+    margin:0;
+    padding:0 0 0 10px;
+    float:left;
+}
+
+#user-options {
+    float:right;
+    padding:3px 10px 0 0;
+}
+
+#user-options p {
+    margin:0;
+    padding:0;
+}
+
+.useroptions a {
+
+}
+
+#timer {
+    display:none; /*TODO:*/
+}

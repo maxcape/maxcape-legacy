@@ -1,0 +1,26 @@
+.rssBody {
+
+}
+
+.rssRow h4 a {
+    display:block;
+    width:230px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    margin: 2px auto;
+}
+
+.rssRow h4 {
+    margin:1px 0;
+    padding:0;
+    font-weight:normal;
+}
+
+.rssRow div {
+    display:none;
+}
+
+.rssRow p {
+    display:none;
+}

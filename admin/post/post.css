@@ -1,0 +1,18 @@
+#post label {
+	display:block;
+}
+
+#post input[type='text'] {
+	display:block;
+	margin:10px auto;
+	width:90%;
+}
+
+#post textarea {
+	display:block;
+	margin:10px auto;
+	padding:0;
+	width:90%;
+	height:500px;
+	resize:none;
+}

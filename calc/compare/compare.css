@@ -1,0 +1,286 @@
+
+
+.name {
+    margin:0;
+    padding:0;
+    height:40px;
+    text-align:center;
+    margin-bottom:-35px;
+}
+
+.player {
+    width:48%;
+    margin:0;
+    float:left;
+}
+
+.middle-column {
+    width:4%;
+    float:left;
+    height:100%;
+    margin-top:214px;
+    border-top:thin solid #444;
+
+}
+
+@-moz-document url-prefix() {
+    .middle-column {
+        margin-top:215px !important;
+    }
+}
+
+.middle-column .img-container {
+    width:100%;
+    position:relative;
+    text-align:center;
+    height:30px;
+    border-top:thin solid #666;
+    border-bottom:thin solid #444;
+
+    background-color: #044A70;
+    background-image: linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -o-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -moz-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -ms-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #044A70), color-stop(0.5, #003A61));
+}
+
+.middle-column .img-container img {
+    margin-top:5px;
+    height:20px;
+    position:relative;
+    z-index:99999;
+}
+
+.skilllist {
+
+}
+
+.skill {
+    border-top:thin solid #666;
+    border-bottom:thin solid #444;
+}
+
+.skilllist .skill:first-of-type {
+    border-top:none;
+    font-weight:bold;
+}
+
+.skill-percentage {
+    background-color: #044A70;
+    background-image: linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -o-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -moz-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -ms-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #044A70), color-stop(0.5, #003A61));
+}
+
+.two .skill {
+    position:relative;
+    height:30px;
+    width:100%;
+}
+
+
+.two .skill-percentage {
+    height:100%;
+    position:absolute;
+    left:0;
+}
+
+.two [class*='skill-']:not(.skill-percentage) {
+    position:absolute;
+    margin-top:5px;
+}
+
+.two .skill-name {
+    left:1%;
+}
+
+.two .skill-rank {
+    left:28%;
+}
+
+.two .skill-lvl {
+    left:46%;
+}
+
+.two .skill-exp {
+    left:57%;
+}
+
+.two .skill-per {
+    left:85%;
+}
+
+.one .skill {
+    position:relative;
+    height:30px;
+    width:100%;
+}
+
+.one .skill-percentage {
+    height:100%;
+    position:absolute;
+    right:0;
+}
+
+.one [class*='skill-']:not(.skill-percentage) {
+    position:absolute;
+    margin-top:5px;
+}
+
+.one .skill-name {
+    right:1%;
+}
+
+.one .skill-rank {
+    right:28%;
+}
+
+.one .skill-lvl {
+    right:46%;
+}
+
+.one .skill-exp {
+    right:57%;
+}
+
+.one .skill-per {
+    right:85%;
+}
+
+.one .skilllist .skill:first-of-type {
+    text-align:right;
+}
+
+[id*="gauge"] {
+    height:150px;
+    margin:0 auto;
+}
+
+.winner {
+    color:#EEE;
+}
+
+.leftgreater .img-bg-left {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+
+    border-right:9px solid #EEE;
+    margin-top:9px;
+    margin-right:12px;
+}
+.rightgreater .img-bg-right {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+
+    border-left: 9px solid #EEE;
+    margin-top:9px;
+    margin-left:13px;
+}
+
+.img-bg-left {
+    position:absolute;
+    top:0;
+    left:0;
+}
+.img-bg-right {
+    position:absolute;
+    top:0;
+    left:50%;
+}
+
+.player h2 {
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+#user1input, #user2input {
+    height:20px;
+    border-radius:3px;
+    text-align:center;
+    width:160px;
+    padding:3px 0;
+
+    background-color: #DDD;
+    background-image: linear-gradient(bottom, #D6D6D6 35%, #C2C2C2 68%);
+    background-image: -o-linear-gradient(bottom, #D6D6D6 35%, #C2C2C2 68%);
+    background-image: -moz-linear-gradient(bottom, #D6D6D6 35%, #C2C2C2 68%);
+    background-image: -webkit-linear-gradient(bottom, #D6D6D6 35%, #C2C2C2 68%);
+    background-image: -ms-linear-gradient(bottom, #D6D6D6 35%, #C2C2C2 68%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.35, #D6D6D6),
+        color-stop(0.68, #C2C2C2)
+    );
+    border:none;
+}
+
+#user1input {
+    margin-right:55px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+
+#user2input {
+    margin-left:55px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+
+#comparebtn1 {
+    margin:0 -4px 0 0;
+    padding:0 5px;
+    border:none;
+    height:26px;
+    color:#AAA;
+    background-color: #005734;
+    background-image: linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -o-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -moz-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -ms-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.11, #076932),
+        color-stop(0.5, #005734)
+    );
+    border-radius:0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#comparebtn2 {
+    margin:0 0 0 -4px;
+    padding:0 5px;
+    border:none;
+    height:26px;
+    color:#AAA;
+    background-color: #005734;
+    background-image: linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -o-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -moz-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -ms-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.11, #076932),
+        color-stop(0.5, #005734)
+    );
+    border-radius:0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

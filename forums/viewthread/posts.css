@@ -1,0 +1,334 @@
+#postlist {
+    clear:both;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.post {
+    overflow:hidden;
+    margin-bottom:10px;
+    position:relative;
+    background-color:#BBB;
+}
+
+.post:last-of-type {
+    margin-bottom:0;
+}
+
+.topbar {
+    width:100%;
+    clear:both;
+    overflow:hidden;
+    background-color:#AAA;
+    border-bottom:thin solid #999;
+}
+
+.userdetail_username {
+    float:left;
+    padding:7px 10px;
+    font-weight:bold;
+    font-variant:small-caps;
+    font-size:125%;
+}
+
+.topbar_postnumber {
+    float:right;
+    padding:10px;
+}
+
+.userdetail {
+    box-sizing:border-box;
+    width:15%;
+    background-color:#BBB;
+    float:left;
+    border-top:thin solid #DDD;
+    height:225px;
+    padding:5px;
+}
+
+.userdetail img {
+    display:block;
+    width:100%;
+}
+
+.imagecontainer {
+    width:28%;
+    float:left;
+    margin-left:1%;
+}
+
+.userdetails {
+    float:right;
+    width:68%;
+    overflow:hidden;
+}
+
+.userdetail span {
+    display:block;
+}
+
+.userdetail_usergroup {
+    font-size:80%;
+}
+
+.postcontents {
+    box-sizing:border-box;
+    border-left:thin solid #DDD;
+    padding:20px;
+    width:85%;
+    float:left;
+    background-color:#CCC;
+    border-top:thin solid #DDD;
+    min-height:225px;
+}
+
+.postcontents h1 {
+    font-size:2em;
+}
+
+.postcontents h1, .postcontents h2, .postcontents h3 {
+    margin:0;
+    padding:0;
+}
+
+.createthread {
+     float:right;
+     padding:4px 10px;
+     margin-top:3px;
+     background-color:#CCCCCC;
+
+ }
+
+.categoryheader {
+    width:50%;
+    float:left;
+}
+
+.categoryheader .posted {
+    display:inline;
+}
+
+#epiceditor {
+    height:300px;
+}
+
+#rightbar {
+    height:auto;
+    width:100%;
+}
+
+form h1 {
+    margin:0 0 10px 0;
+    padding:0;
+}
+
+#btncontainer {
+    height:auto;
+    width:100%;
+    overflow:hidden;
+}
+
+#btncontainer button {
+    height:auto;
+    width:auto;
+    margin:0 auto;
+    padding:10px;
+    font-size:15px;
+    float:right;
+    clear:none !important;
+}
+
+#btncontainer a {
+    float:left;
+    display:block;
+    margin-top:10px;
+}
+
+.posted {
+    color:#999;
+    font-size:80%;
+    margin-top:-10px;
+    display:block;
+}
+
+.ownercontrols {
+    position:absolute;
+    bottom:0;
+    overflow:hidden;
+    padding:5px;
+    left:15%;
+    right:0;
+}
+
+.delete {
+    float:right;
+    color:red;
+}
+
+.edit {
+    float:right;
+    margin-right:10px;
+}
+
+textarea {
+    display:none;
+}
+
+.postcontent {
+    display:block;
+}
+
+.postcontent img {
+    max-width:100%;
+}
+
+.posteditor {
+    margin-bottom:10px;
+    height:150px;
+    display:none;
+}
+
+.canceledit {
+    display:none;
+    float:right;
+    margin-right:10px;
+}
+
+.saveedit {
+    display:none;
+    float:right;
+    margin-right:10px;
+}
+
+#reply {
+    clear:both;
+    margin-top:26px;
+}
+
+.post:target {
+    border:2px solid #D74E5E;
+}
+
+
+blockquote {
+    border:thin solid #999;
+    background-color:#BBB;
+    margin-top:1em;
+    margin-left:0;
+}
+
+blockquote ol, blockquote ul, blockquote p:not(:first-child), blockquote code, blockquote pre {
+    margin-left:5px;
+}
+
+blockquote p:first-child {
+    border-bottom:thin solid #999;
+    background-color:#AAA;
+    margin:0;
+    padding:10px 0 10px 5px;
+}
+
+blockquote > blockquote {
+    margin-left:15px;
+}
+
+.threadcontrols {
+    float:left;
+    font-size:85%;
+    display:inline-block;
+    padding:4px;
+    border: thin solid #AAA;
+    border-radius:2px;
+    margin:5px 5px 0 0;
+}
+
+.threadcontrols a {
+
+}
+
+.lock, .sticky, .hidden {
+    color:red;
+}
+
+.unlock, .unsticky, .unhidden {
+    color:green;
+}
+
+.darkText, .darkText a {
+    color:#1D1D1D;
+}
+
+.medText, .medText a {
+    color:#828282;
+}
+
+.lightText, .lightText a {
+    color:#D3D3D3;
+}
+
+#blinder {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.3);
+    z-index:9999;
+    display:none;
+}
+
+#moveThreadDialog {
+    width:250px;
+    height:100px;
+    background-color:#354B5E;
+    color:#D3D3D3;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-130px;
+    margin-top:-55px;
+    padding:10px;
+    text-align:center;
+    box-shadow:0 0 5px 2px black;
+}
+
+#moveThreadDialog p {
+    margin:0 0 10px 0;
+    padding:0;
+}
+
+#moveThreadDialog select {
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+
+.gauge {
+    height:120px;
+}
+
+.disabledQuote {
+    cursor: default;
+    visibility:hidden;
+}
+
+.contentdeleted p {
+    color:#888;
+}
+
+.hiddenContent {
+    display:none;
+}
+
+#lastviewinfo {
+    color:#999;
+    float:right;
+    clear:right;
+}
+
+.postcontent iframe {
+    width:715px !important;
+    height: 280px !important;
+    overflow:hidden;
+    border:none;
+}

@@ -1,0 +1,40 @@
+/* footer.css
+ * This file contains all styles for the footer
+ * Dependencies: imports.css
+ */
+
+#footer {
+    background-image: linear-gradient(bottom, #41474D 0%, #4F5964 86%);
+    background-image: -o-linear-gradient(bottom, #41474D 0%, #4F5964 86%);
+    background-image: -moz-linear-gradient(bottom, #41474D 0%, #4F5964 86%);
+    background-image: -webkit-linear-gradient(bottom, #41474D 0%, #4F5964 86%);
+    background-image: -ms-linear-gradient(bottom, #41474D 0%, #4F5964 86%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.0, #41474D),
+        color-stop(0.86, #4F5964)
+    );
+
+    color:#AAA;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-left-radius:5px;
+    -moz-border-top-right-radius:5px;
+
+    height:30px;
+    margin-top: 10px;
+    clear:both;
+}
+
+#footer p {
+    text-align:center;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+}
+

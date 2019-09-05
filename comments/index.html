@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comment Styles</title>
+
+        <link rel="stylesheet" href="../css/base/masthead.css">
+        <link rel="stylesheet" href="../css/base/body.css">
+        <link rel="stylesheet" href="../css/base/footer.css">
+        <link rel="stylesheet" href="../css/base/social.css">
+        <link rel="stylesheet" href="../css/special/news.css">
+
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+
+        <link rel="stylesheet" href="comments.css">
+
+        <script src="../js/jquery.js"></script>
+    </head>
+
+    <body>
+        <div id="masthead">
+            <div class="header">
+
+                <img src="../images/TL_icon.png" class="icon">
+                <a style="float:left;" href="/nr"><h1>MAX/COMP CAPE CALCULATOR</h1></a>
+
+
+                <form style="float:right;" action="/calc/" method="get">
+                    <input type="submit" value="Search" onclick="(function(e) { e.preventDefault(); document.location = '/calc/' + $('#name').val().replace(' ', '+'); })(event)">
+                    <input type="text" name="name" id="name" placeholder="Search..." required="required">
+                    <label for="name">RSN</label>
+                </form>
+
+                <a href="#"
+                   class="s3d twitter"> <span class="fontawesome-twitter"></span> </a>
+
+                <a href="#"
+                   class="s3d tumblr"> <span class="zocial-tumblr"></span> </a>
+
+                <a href="#"
+                   class="s3d facebook"> <span class="fontawesome-facebook"></span> </a>
+
+                <a href="#" class="s3d googleplus"> <span class="fontawesome-google-plus"></span> </a>
+
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class='active'><a style="padding:5px 15px;" href="#"><span class="fontawesome-home"></span></a></li>
+                    <li><a href="#">Designer</a></li>
+                    <li><a href="#">Signatures</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Search Profiles</a></li>
+                    <li><a href="#">User Control Panel</a></li>
+                    <li><a href="#">Admin</a></li>
+                </ul>
+            </div>
+            <div class="latestNews">
+                <h3>Latest News: <a href="#">Tweaks & Updates (ongoing newspost)</a></h3>
+
+                <div id="user-options">
+                    <p>Welcome, Evan | <a href="#">Logout</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="maincontent">
+                <div class="innercontent">
+                    <h2>
+                        <a href="#">Post Header</a>
+                    </h2>
+                    <span class="date">Jul 14, 2013</span>
+
+                    <p>Post Content</p>
+
+                    <hr>
+
+                    <div id="comments">
+                        <h3>4 Comments</h3>
+
+                        <div id="leave-comment">
+                            <img class="user-portrait-large" src="http://services.runescape.com/m=avatar-rs/The%20Orange/chat.png">
+                            <textarea placeholder="Leave a comment..."></textarea>
+
+                            <p id="reply-to">In Reply To: <span id="reply-to-name"></span> <a class="fontawesome-remove-sign" title="Remove Reply" href="javascript:removeReply();"></a></p>
+                            <input type="hidden" id="reply-to-id">
+                            <button type="button">Post Comment</button>
+                        </div>
+
+                        <hr>
+
+                        <div class="comment base" data-poster="Evan" data-poster-id="1">
+                            <div class="inner-comment">
+                                <img class="user-portrait" src="http://services.runescape.com/m=avatar-rs/The%20Orange/chat.png">
+                                <div class="comment-details">
+                                    <p class="comment-author"><a href="#">Evan</a></p>
+
+                                    <span class="comment-details-seperator">&bull;</span>
+
+                                    <p class="comment-time">10 minutes ago</p>
+
+                                    <div class="reply-details">
+                                        <p class="comment-author-rsn"><a href="#">The Orange</a></p>
+                                    </div>
+                                </div>
+
+                                <a class="reply-link" href="#">Reply</a>
+
+                                <div class="comment-header-seperator"></div>
+
+                                <div class="comment-content">
+                                    <p>This is pretty cool!</p>
+                                </div>
+                            </div>
+
+                            <div class="replies">
+                                <div class="comment reply firstreply" data-poster="Mosaics" data-poster-id="2">
+                                    <div class="inner-comment">
+                                        <img class="user-portrait" src="http://services.runescape.com/m=avatar-rs/Mosaics/chat.png">
+                                        <div class="comment-details">
+                                            <p class="comment-author"><a href="#">Anaxandra V</a></p>
+
+                                            <span class="comment-details-seperator">&bull;</span>
+
+                                            <p class="comment-time">10 minutes ago</p>
+
+                                            <div class="reply-details">
+                                                <p class="comment-author-rsn"><a href="#">Mosaics</a></p>
+                                                <span class="icon-level-down">Evan</span>
+                                            </div>
+
+
+                                        </div>
+
+                                        <a class="reply-link" href="#">Reply</a>
+
+                                        <div class="comment-header-seperator"></div>
+
+                                        <div class="comment-content">
+                                            <p>I agree!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="comment reply firstreply" data-poster="SkyTeck" data-poster-id="3">
+                                    <div class="inner-comment">
+                                        <img class="user-portrait" src="http://services.runescape.com/m=avatar-rs/SkyTeck/chat.png">
+                                        <div class="comment-details">
+                                            <p class="comment-author"><a href="#">SkyTeck</a></p>
+
+                                            <span class="comment-details-seperator">&bull;</span>
+
+                                            <p class="comment-time">10 minutes ago</p>
+
+                                            <div class="reply-details">
+                                                <p class="comment-author-rsn"><a href="#">SkyTeck</a></p>
+                                                <span class="icon-level-down">Evan</span>
+                                            </div>
+                                        </div>
+
+                                        <a class="reply-link" href="#">Reply</a>
+
+                                        <div class="comment-header-seperator"></div>
+
+
+                                        <div class="comment-content">
+                                            <p>Evan, you're a loser.</p>
+                                        </div>
+
+                                        <div class="replies">
+                                            <div class="comment reply secondreply" data-poster="Evan" data-poster-id="1">
+                                                <div class="inner-comment">
+                                                    <img class="user-portrait" src="http://services.runescape.com/m=avatar-rs/The%20Orange/chat.png">
+                                                    <div class="comment-details">
+                                                        <p class="comment-author"><a href="#">Evan</a></p>
+
+                                                        <span class="comment-details-seperator">&bull;</span>
+
+                                                        <p class="comment-time">4 minutes ago</p>
+
+                                                        <div class="reply-details">
+                                                            <p class="comment-author-rsn"><a href="#">The Orange</a></p>
+                                                            <span class="icon-level-down">SkyTeck</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <a class="reply-link" href="#">Reply</a>
+
+                                                    <div class="comment-header-seperator"></div>
+
+                                                    <div class="comment-content">
+                                                        <p>You're funny.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comment-seperator"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                Hi
+            </div>
+        </div>
+
+        <script>
+            function removeReply() {
+                $("#reply-to").css("visibility", "hidden");
+            }
+
+            function replyTo(username) {
+                $("#reply-to").css("visibility", "visible");
+                $("#reply-to-name").empty().text(username);
+
+                location.href = "#leave-comment"
+            }
+
+            $(".reply-link").click(function () {
+                var poster = $(this).parents(".comment").attr("data-poster");
+                var posterid = $(this).parents(".comment").attr("data-poster-id");
+
+                replyTo(poster);
+                $("#reply-to-id").val(posterid);
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,372 @@
+/* calc.css
+ * This file contains special rules only used on the calc page
+ * Dependencies: imports.css
+ */
+
+a {
+    color: #AAAAAA;
+}
+
+.defnameset {
+    background-color: #005734 !important;
+
+    background-image: linear-gradient(bottom, #076932 11%, #005734 50%) !important;
+    background-image: -o-linear-gradient(bottom, #076932 11%, #005734 50%) !important;
+    background-image: -moz-linear-gradient(bottom, #076932 11%, #005734 50%) !important;
+    background-image: -webkit-linear-gradient(bottom, #076932 11%, #005734 50%) !important;
+    background-image: -ms-linear-gradient(bottom, #076932 11%, #005734 50%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #076932), color-stop(0.5, #005734)) !important;
+    color: #AAA;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+    margin-right:-6px;
+    width: 30px !important;
+}
+
+.defnamenotset {
+    background-color: #5C1A19 !important;
+    background-image: linear-gradient(bottom, #630303 11%, #470202 50%) !important;
+    background-image: -o-linear-gradient(bottom, #630303 11%, #470202 50%) !important;
+    background-image: -moz-linear-gradient(bottom, #630303 11%, #470202 50%) !important;
+    background-image: -webkit-linear-gradient(bottom, #630303 11%, #470202 50%) !important;
+    background-image: -ms-linear-gradient(bottom, #630303 11%, #470202 50%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #630303), color-stop(0.5, #470202)) !important;
+    color: #AAA;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+    margin-right:-6px;
+    width: 30px !important;
+}
+
+#leftbar {
+    float: left;
+    width: 23%;
+}
+
+#leftbar h1, .toggleBox h1 {
+    display: inline;
+    color: #00BC00;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    float: right;
+    clear: right;
+    font-family: 'Tulpen One', cursive;
+    letter-spacing:1px;
+}
+
+#leftbar h1 a {
+    color: #00BC00;
+    text-decoration: none;
+}
+
+#leftbar p {
+    font-size: 75%;
+    display: inline;
+    margin: 13px 0 0 0;
+    padding: 0;
+    float: left;
+    clear: left;
+}
+
+#topbar {
+    width:96%;
+    margin:3px 0 3px 0;
+    position:relative;
+}
+
+#topbar a {
+    float:right;
+    font-size:85%;
+}
+
+.user-info {
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+
+.advert {
+    margin:3px auto;
+    width:209px;
+}
+
+.capes-container {
+    overflow: hidden;
+}
+
+.comp {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dropdown {
+    margin-left:32px !important;
+}
+
+#gauge {
+    width: 100%;
+    height: 150px;
+}
+
+.info {
+    overflow: hidden;
+    padding: 0 10px 0 0;
+}
+
+#rewards {
+    padding: 10px 10px 0 0;
+}
+
+#description {
+    clear: both;
+    width: 100%;
+    height: 100px;
+}
+
+#description h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    color: #076932;
+    font-size: 25px;
+    font-family: 'Tulpen One', cursive;
+}
+
+#description p {
+    text-align: center;
+    float: none;
+    display: block;
+}
+
+.medal {
+    width:50px;
+    text-align:center;
+    float: left;
+    margin: 2px;
+}
+
+.medal img {
+    height:38px;
+}
+
+.medal:hover {
+    outline: thin solid red;
+}
+
+/* REVIEW name */
+#mainContent {
+    float: left;
+    width: 77%;
+    min-height: 575px;
+}
+
+#skilllist {
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.meter-wrap {
+    position: relative;
+    border-top: thin solid #484848;
+    cursor: pointer;
+    background:#1C1C1C;
+}
+
+.header-row {
+    cursor: inherit;
+    font-weight: bolder;
+    color: #AAA;
+
+    border: none;
+    padding-left: 1px;
+    font-size: 110%;
+    clear: both;
+    box-shadow: none;
+}
+
+.header-row:hover {
+    border: none !important;
+    color: #AAA !important;
+    background: none !important;
+}
+
+.skill:last-of-type .meter-wrap {
+    border-bottom: thin solid #484848;
+}
+
+.meter-wrap:hover {
+    color: #FFF;
+    background-color: #5C1A19;
+    background-image: linear-gradient(bottom, #630303 11%, #470202 50%);
+    background-image: -o-linear-gradient(bottom, #630303 11%, #470202 50%);
+    background-image: -moz-linear-gradient(bottom, #630303 11%, #470202 50%);
+    background-image: -webkit-linear-gradient(bottom, #630303 11%, #470202 50%);
+    background-image: -ms-linear-gradient(bottom, #630303 11%, #470202 50%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #630303), color-stop(0.5, #470202));
+}
+
+.meter-wrap:hover a {
+    color: #FFF;
+}
+
+.skill .meter-wrap:hover .meter-value {
+    background-image: linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -o-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -moz-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -ms-linear-gradient(bottom, #076932 11%, #005734 50%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #076932), color-stop(0.5, #005734));
+}
+
+.meter-wrap, .meter-value {
+    width: 100%;
+    height: 30px;
+}
+
+.meter-value {
+    background-color: #044A70;
+    background-image: linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -o-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -moz-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -ms-linear-gradient(bottom, #044A70 11%, #003A61 50%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.11, #044A70), color-stop(0.5, #003A61));
+}
+
+/* REVIEW name (this is the hover over columns in the header-row) */
+.virtual {
+    border-bottom: thin dotted #BBB;
+    cursor: help;
+}
+
+[class*="meter-text-"] span[class*="icon-"] {
+    color:#777;
+    cursor:pointer;
+    font-size:85%;
+}
+
+[class*="meter-text-"] span[class*="icon-"]:first-of-type:before {
+
+}
+
+[class*="meter-text-"] span[class*="icon-sort-"]:before {
+    display:block;
+}
+
+[class*="meter-text-"] span[class*="icon-"]:hover {
+    color:#f19f06 !important;
+}
+
+.active-sort {
+    color:#CCC !important;
+}
+
+.meter-text-icon {
+    position:absolute;
+    margin-left:0.5%;
+    height:22px;
+    margin-top:4px;
+}
+
+.meter-text-skill {
+    position: absolute;
+    margin-left: 4%;
+    line-height: 30px;
+}
+
+.meter-text-rank {
+    position: absolute;
+    margin-left: 20.5%;
+    line-height: 30px;
+}
+
+.meter-text-level {
+    position: absolute;
+    margin-left: 32%;
+    line-height: 30px;
+}
+
+.meter-text-vlevel {
+    position: absolute;
+    margin-left: 40%;
+    line-height: 30px;
+}
+
+.meter-text-exp {
+    position: absolute;
+    margin-left: 49%;
+    line-height: 30px;
+    padding-left: 2px;
+}
+
+.meter-text-tnl {
+    position: absolute;
+    margin-left: 67%;
+    line-height: 30px;
+    padding-left: 2px;
+}
+
+.meter-text-remaining {
+    position: absolute;
+    margin-left: 80%;
+    line-height: 30px;
+    padding-left: 2px;
+}
+
+.meter-text-percentage {
+    position: absolute;
+    margin-left: 92%;
+    line-height: 30px;
+    padding-left: 2px;
+}
+
+.toggleBox {
+    display: none;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.toggleBox h1 {
+    text-align: center !important;
+    float: none !important;
+    display: block !important;
+    margin: 16px !important;
+}
+
+.skillcalc {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    border-collapse: collapse;
+    color: #FFF;
+    text-align: left;
+}
+
+.skillcalc thead tr th {
+    font-weight: normal;
+}
+
+.skillcalc tbody tr {
+    background-color: #666;
+}
+
+.skillcalc tbody tr:nth-of-type(odd) {
+    background-color: #444;
+}
+
+.skillcalc tbody tr td {
+
+}
+
+#chart-container {
+    clear: both;
+    height: 400px;
+}
+
+.hide {
+    display:none;
+}
+
+.haschart {
+    margin-top:410px;
+}

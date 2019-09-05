@@ -1,0 +1,125 @@
+.badge {
+    background-image: url(badge_sprites_sm.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.badge.unobtained {
+    -webkit-filter: blur(1px) grayscale(1);
+    -webkit-filter: blur(1px) grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
+    filter: blur(1px) grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    opacity:0.33;
+}
+
+.badge.survivalist {
+    background-position: 0 0;
+}
+
+.badge.naturalist {
+    background-position: -54px 0;
+}
+
+.badge.artisan {
+    background-position: -108px 0;
+}
+
+.badge.gatherer {
+    background-position: -162px 0;
+}
+
+.badge.twentyfive {
+    background-position: 0 -57px;
+}
+
+.badge.fifty {
+    background-position: -54px -57px;
+}
+
+.badge.onehundred {
+    background-position: -108px -57px;
+}
+
+.badge.onehundredfifty {
+    background-position: -162px -57px;
+}
+
+.badge.twohundred {
+    background-position: 0 -110px;
+}
+
+.badge.classic {
+    background-position: -108px -110px;
+}
+
+.badge.f2pMax {
+    background-position: -162px -110px;
+}
+
+.badge.f2pComp {
+    background-position: 0 -164px;
+}
+
+.badge.onebil {
+    background-position: -54px -164px;
+}
+
+.badge.lvl138 {
+    background-position: -108px -164px;
+}
+
+.badge.lvl126 {
+    background-position: -162px -164px;
+}
+
+.badge.balanced {
+    background-position: 0 -218px;
+}
+
+.badge.skiller {
+    background-position: -54px -218px;
+}
+
+.badge.combatant {
+    background-position: -108px -218px;
+}
+
+.badge.nothingLikeTheFirst {
+    background-position: -162px -218px;
+}
+
+.badge.trimmed {
+    background-position: 0 -272px;
+}
+
+.badge.gettingHangOfThis {
+    background-position: -54px -272px;
+}
+
+.badge.lawOfNines {
+    background-position: -108px -272px;
+}
+
+.badge.scaper {
+    background-position: -162px -272px;
+}
+
+.badge.maxed {
+    background-position: 0 -326px;
+}
+
+.badge.completionist {
+    background-position: -54px -326px;
+}
+
+.badge.mastercape {
+    background-position: -108px -326px;
+}
+
+.badge.portmaster {
+    background-position: -162px -326px;
+}

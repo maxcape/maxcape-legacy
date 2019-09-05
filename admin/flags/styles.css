@@ -1,0 +1,61 @@
+table {
+    margin:0 auto;
+}
+
+table tr:first-of-type {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .25))), -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(255, 255, 255, .1)), color-stop(0.501, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0)));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), -moz-linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+    background: linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+}
+
+table tr:first-of-type th {
+    text-align:center;
+}
+
+table tr:first-of-type th:first-of-type {
+    border-top-left-radius:5px;
+}
+
+table tr:first-of-type th:last-of-type {
+    border-top-right-radius:5px;
+}
+
+table tr:last-of-type th:first-of-type {
+    border-bottom-left-radius:5px;
+}
+
+table tr:last-of-type td:last-of-type {
+    border-bottom-right-radius:5px;
+}
+
+table tr:last-of-type th, table tr:last-of-type td {
+    border-bottom:thin solid black;
+}
+
+table tr td:last-of-type, table tr:first-of-type th:last-of-type {
+    border-right:thin solid black;
+}
+
+
+table th, table td {
+    border-top:thin solid black;
+    border-left:thin solid black;
+    padding:5px;
+    width:200px;
+    text-align:left;
+}
+
+table tr td {
+    text-align:center;
+}
+
+table tr td a {
+    text-decoration:none;
+}
+
+.microcolor {
+    width:10px;
+    height:10px;
+    display:inline-block;
+    border-radius:2px;
+}

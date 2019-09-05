@@ -1,0 +1,7 @@
+body {
+    background-image:url(../../images/bg/arma_trans.png), url(../../images/bg/bandos_trans.png);
+    background-position:left bottom, right bottom;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:28% auto;
+}
